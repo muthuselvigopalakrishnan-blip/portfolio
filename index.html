@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Python & FastAPI Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">DEV<span>PORTFOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-circle-1"></div>
+        <div class="hero-circle-2"></div>
+
+        <div class="hero-flex container">
+            <div class="photo-container">
+                <div class="photo-glow"></div>
+                <img src="./assets/img/image.jpg" alt="Your Profile" class="profile-img">
+            </div>
+
+            <div class="hero-text-content">
+                <div class="section-tag">Welcome to my portfolio</div>
+                <h1>Hi, I'm <span class="text-gradient">Muthuselvi</span></h1>
+                <p>A Developer specializing in high-performance backends with Python & FastAPI and designing intuitive
+                    user experiences in Figma.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <div class="social-minimal">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div class="section-tag">About Me</div>
+        <div class="about-content">
+            <h2 class="title">Turning complex logic into <br>simple, elegant solutions.</h2>
+            <p class="description">I am a fresher web developer who is passionate about creating simple and
+                user-friendly websites. I am currently learning HTML, CSS, and basic JavaScript and looking for an
+                opportunity to start my career in web development.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-tag">Expertise</div>
+            <h2 class="title">My Tech Stack</h2>
+            <div class="skills-flex">
+                <div class="skill-item color-python"><i class="fab fa-python"></i> <span>Python</span></div>
+                <div class="skill-item color-fastapi"><i class="fas fa-bolt"></i> <span>FastAPI</span></div>
+                <div class="skill-item color-db"><i class="fas fa-database"></i> <span>PostgreSQL</span></div>
+                <div class="skill-item color-html"><i class="fab fa-html5"></i> <span>HTML</span></div>
+                <div class="skill-item color-css"><i class="fab fa-css3-alt"></i> <span>CSS</span></div>
+                <div class="skill-item color-figma"><i class="fab fa-figma"></i> <span>Figma</span></div>
+                <div class="skill-item color-github"><i class="fab fa-github"></i> <span>GitHub</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <div class="section-tag">Portfolio</div>
+        <h2 class="title">Featured Work</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-thumb">
+                    <img src="https://via.placeholder.com/600x400" alt="Project One">
+                    <div class="project-num">01</div>
+                </div>
+                <div class="project-info">
+                    <h3>Cloud API Engine</h3>
+                    <p>High-speed backend built with FastAPI and PostgreSQL for real-time data processing.</p>
+                    <a href="#" class="project-link">GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-thumb">
+                    <img src="https://via.placeholder.com/600x400" alt="Project Two">
+                    <div class="project-num">02</div>
+                </div>
+                <div class="project-info">
+                    <h3>SaaS Dashboard</h3>
+                    <p>Comprehensive UI design in Figma focused on user conversion and clean data viz.</p>
+                    <a href="#" class="project-link">GitHub <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-area">
+        <div class="contact-glass">
+            <div class="contact-header">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind? Let's build something amazing together.</p>
+            </div>
+            <form class="clean-form">
+                <div class="input-row">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                <button type="submit" class="submit-glow">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muthuselvi. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
